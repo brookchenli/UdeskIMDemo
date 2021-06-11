@@ -1,0 +1,1 @@
+../../../MChatSDK/UdeskMChat/MChatSDK/UdeskMChatUIKit/Tools/Vendor/YYKeyboardManager/Udesk_YYKeyboardManager.h

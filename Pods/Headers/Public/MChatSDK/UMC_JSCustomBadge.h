@@ -1,0 +1,1 @@
+../../../MChatSDK/UdeskMChat/MChatSDK/UdeskMChatUIKit/Tools/Vendor/JSCustomBadge/UMC_JSCustomBadge.h

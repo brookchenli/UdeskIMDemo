@@ -1,0 +1,38 @@
+PODS:
+  - MChatSDK (2.0.1):
+    - MChatSDK/UIKit (= 2.0.1)
+  - MChatSDK/UIKit (2.0.1)
+  - UdeskSDK (5.1.9):
+    - UdeskSDK/SDK (= 5.1.9)
+    - UdeskSDK/UIKit (= 5.1.9)
+  - UdeskSDK/SDK (5.1.9)
+  - UdeskSDK/UIKit (5.1.9):
+    - UdeskSDK/SDK
+
+DEPENDENCIES:
+  - MChatSDK (from `https://github.com/udesk/udesk_mchat_ios`, branch `v2.0`)
+  - UdeskSDK (from `https://github.com/udesk/UdeskSDK-iOS`, branch `5.x`)
+
+EXTERNAL SOURCES:
+  MChatSDK:
+    :branch: v2.0
+    :git: https://github.com/udesk/udesk_mchat_ios
+  UdeskSDK:
+    :branch: 5.x
+    :git: https://github.com/udesk/UdeskSDK-iOS
+
+CHECKOUT OPTIONS:
+  MChatSDK:
+    :commit: 706cb28054c33067dec338857b4abc26bc6404da
+    :git: https://github.com/udesk/udesk_mchat_ios
+  UdeskSDK:
+    :commit: 2b781d76f4b067116102f36ed14c17f659d697d9
+    :git: https://github.com/udesk/UdeskSDK-iOS
+
+SPEC CHECKSUMS:
+  MChatSDK: f2752934f81bed99e6b1c4152e90612e2a6a0575
+  UdeskSDK: 78b8c5c0fd77baaf432ddd62f91bcdfd3804d6e3
+
+PODFILE CHECKSUM: 2d7968c217842eca48de15acb873ae2bb0e67beb
+
+COCOAPODS: 1.9.1

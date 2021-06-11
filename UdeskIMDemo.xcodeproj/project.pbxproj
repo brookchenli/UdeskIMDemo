@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B55899F78A662FA6E2E41B26 /* libPods-UdeskIMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3F2F385ACC8A8A25415275 /* libPods-UdeskIMDemo.a */; };
+		D461A3332664C07600898923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D461A3322664C07600898923 /* AppDelegate.m */; };
+		D461A3362664C07600898923 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D461A3352664C07600898923 /* SceneDelegate.m */; };
+		D461A3392664C07600898923 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D461A3382664C07600898923 /* ViewController.m */; };
+		D461A33C2664C07600898923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D461A33A2664C07600898923 /* Main.storyboard */; };
+		D461A33E2664C07A00898923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D461A33D2664C07A00898923 /* Assets.xcassets */; };
+		D461A3412664C07A00898923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D461A33F2664C07A00898923 /* LaunchScreen.storyboard */; };
+		D461A3442664C07A00898923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D461A3432664C07A00898923 /* main.m */; };
+		D4712FDE26663E0600248A77 /* UdeskIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4712FDD26663E0600248A77 /* UdeskIMViewController.m */; };
+		D4712FE126663E1600248A77 /* UdeskUMCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4712FE026663E1600248A77 /* UdeskUMCViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04B0C02495203C387F0D5C48 /* Pods-UdeskIMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UdeskIMDemo.release.xcconfig"; path = "Target Support Files/Pods-UdeskIMDemo/Pods-UdeskIMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8F3F2F385ACC8A8A25415275 /* libPods-UdeskIMDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UdeskIMDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44DADA3D9B8154291F6100D /* Pods-UdeskIMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UdeskIMDemo.debug.xcconfig"; path = "Target Support Files/Pods-UdeskIMDemo/Pods-UdeskIMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D461A32E2664C07600898923 /* UdeskIMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdeskIMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D461A3312664C07600898923 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D461A3322664C07600898923 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D461A3342664C07600898923 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D461A3352664C07600898923 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D461A3372664C07600898923 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D461A3382664C07600898923 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D461A33B2664C07600898923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D461A33D2664C07A00898923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D461A3402664C07A00898923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D461A3422664C07A00898923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D461A3432664C07A00898923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4712FDC26663E0600248A77 /* UdeskIMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UdeskIMViewController.h; sourceTree = "<group>"; };
+		D4712FDD26663E0600248A77 /* UdeskIMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UdeskIMViewController.m; sourceTree = "<group>"; };
+		D4712FDF26663E1500248A77 /* UdeskUMCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UdeskUMCViewController.h; sourceTree = "<group>"; };
+		D4712FE026663E1600248A77 /* UdeskUMCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UdeskUMCViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D461A32B2664C07600898923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55899F78A662FA6E2E41B26 /* libPods-UdeskIMDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B7FD0894C77147D4644E9EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F3F2F385ACC8A8A25415275 /* libPods-UdeskIMDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		948B254D6FF09A4AA47FE01D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D44DADA3D9B8154291F6100D /* Pods-UdeskIMDemo.debug.xcconfig */,
+				04B0C02495203C387F0D5C48 /* Pods-UdeskIMDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D461A3252664C07600898923 = {
+			isa = PBXGroup;
+			children = (
+				D461A3302664C07600898923 /* UdeskIMDemo */,
+				D461A32F2664C07600898923 /* Products */,
+				948B254D6FF09A4AA47FE01D /* Pods */,
+				7B7FD0894C77147D4644E9EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D461A32F2664C07600898923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D461A32E2664C07600898923 /* UdeskIMDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D461A3302664C07600898923 /* UdeskIMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4712FDB26663DEC00248A77 /* Classes */,
+				D461A3312664C07600898923 /* AppDelegate.h */,
+				D461A3322664C07600898923 /* AppDelegate.m */,
+				D461A3342664C07600898923 /* SceneDelegate.h */,
+				D461A3352664C07600898923 /* SceneDelegate.m */,
+				D461A3372664C07600898923 /* ViewController.h */,
+				D461A3382664C07600898923 /* ViewController.m */,
+				D461A33A2664C07600898923 /* Main.storyboard */,
+				D461A33D2664C07A00898923 /* Assets.xcassets */,
+				D461A33F2664C07A00898923 /* LaunchScreen.storyboard */,
+				D461A3422664C07A00898923 /* Info.plist */,
+				D461A3432664C07A00898923 /* main.m */,
+			);
+			path = UdeskIMDemo;
+			sourceTree = "<group>";
+		};
+		D4712FDB26663DEC00248A77 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4712FDC26663E0600248A77 /* UdeskIMViewController.h */,
+				D4712FDD26663E0600248A77 /* UdeskIMViewController.m */,
+				D4712FDF26663E1500248A77 /* UdeskUMCViewController.h */,
+				D4712FE026663E1600248A77 /* UdeskUMCViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D461A32D2664C07600898923 /* UdeskIMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D461A3472664C07A00898923 /* Build configuration list for PBXNativeTarget "UdeskIMDemo" */;
+			buildPhases = (
+				B18A832ED4D79F2803C28DE9 /* [CP] Check Pods Manifest.lock */,
+				D461A32A2664C07600898923 /* Sources */,
+				D461A32B2664C07600898923 /* Frameworks */,
+				D461A32C2664C07600898923 /* Resources */,
+				F074B5AEE5B112BF9F5645BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UdeskIMDemo;
+			productName = UdeskIMDemo;
+			productReference = D461A32E2664C07600898923 /* UdeskIMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D461A3262664C07600898923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D461A32D2664C07600898923 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = D461A3292664C07600898923 /* Build configuration list for PBXProject "UdeskIMDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D461A3252664C07600898923;
+			productRefGroup = D461A32F2664C07600898923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D461A32D2664C07600898923 /* UdeskIMDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D461A32C2664C07600898923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D461A3412664C07A00898923 /* LaunchScreen.storyboard in Resources */,
+				D461A33E2664C07A00898923 /* Assets.xcassets in Resources */,
+				D461A33C2664C07600898923 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B18A832ED4D79F2803C28DE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UdeskIMDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F074B5AEE5B112BF9F5645BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UdeskIMDemo/Pods-UdeskIMDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UdeskIMDemo/Pods-UdeskIMDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UdeskIMDemo/Pods-UdeskIMDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D461A32A2664C07600898923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D461A3392664C07600898923 /* ViewController.m in Sources */,
+				D461A3332664C07600898923 /* AppDelegate.m in Sources */,
+				D4712FDE26663E0600248A77 /* UdeskIMViewController.m in Sources */,
+				D461A3442664C07A00898923 /* main.m in Sources */,
+				D461A3362664C07600898923 /* SceneDelegate.m in Sources */,
+				D4712FE126663E1600248A77 /* UdeskUMCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D461A33A2664C07600898923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D461A33B2664C07600898923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D461A33F2664C07A00898923 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D461A3402664C07A00898923 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D461A3452664C07A00898923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D461A3462664C07A00898923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D461A3482664C07A00898923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44DADA3D9B8154291F6100D /* Pods-UdeskIMDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVNW3ZM7G9;
+				INFOPLIST_FILE = UdeskIMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.udesk.xcode12Demo.UdeskIMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D461A3492664C07A00898923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B0C02495203C387F0D5C48 /* Pods-UdeskIMDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVNW3ZM7G9;
+				INFOPLIST_FILE = UdeskIMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.udesk.xcode12Demo.UdeskIMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D461A3292664C07600898923 /* Build configuration list for PBXProject "UdeskIMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D461A3452664C07A00898923 /* Debug */,
+				D461A3462664C07A00898923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D461A3472664C07A00898923 /* Build configuration list for PBXNativeTarget "UdeskIMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D461A3482664C07A00898923 /* Debug */,
+				D461A3492664C07A00898923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D461A3262664C07600898923 /* Project object */;
+}

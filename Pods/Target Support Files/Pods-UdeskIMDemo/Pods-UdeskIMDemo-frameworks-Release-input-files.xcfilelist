@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-UdeskIMDemo/Pods-UdeskIMDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MChatSDK/MChatSDK.framework
+${BUILT_PRODUCTS_DIR}/UdeskSDK/UdeskSDK.framework

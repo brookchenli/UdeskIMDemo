@@ -1,0 +1,1 @@
+../../../MChatSDK/UdeskMChat/MChatSDK/UdeskMChatUIKit/Tools/Vendor/YYWebImage/Categories/CALayer+UMC_YYWebImage.h
