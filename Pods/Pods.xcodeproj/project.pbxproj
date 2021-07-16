@@ -374,6 +374,7 @@
 		8B47AC6C8EC649E91F428BF785509FA0 /* UdeskMessageTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = D57AF48C5AEA07BCE0AFE7B06B68231B /* UdeskMessageTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8BF52C4FEEBEE8C79210FFB89EEFB574 /* UdeskAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = A703E4440C677C3AD1D6D05A4F71BD9D /* UdeskAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8C06D12DBC1A615A963D4BEC1A856BFD /* UMCFileMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6289A3A2AC2FC2BE75200339CB207809 /* UMCFileMessage.m */; };
+		8D599D9BB2C33ADBDD0E19404A72F84F /* Pods-UdeskIMDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3612E7640FA37E21EF8E161B3B8737 /* Pods-UdeskIMDemo-dummy.m */; };
 		8E10CEE9EA21A029A2D4FC657384B5BB /* UdeskRichCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2E03814200738C2B0EFFFDA4AB2DD0 /* UdeskRichCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8F27AD4CB7A23A44C0DAAA8904C5E25E /* UMC_YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD8AB41909470E56F5E81AAAEA55DF1 /* UMC_YYMemoryCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8F2F53B728352F7AA577E54FB128F683 /* UMCBundleHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 184ED5ED9CB51F2FA379D9D38F2E566B /* UMCBundleHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -579,7 +580,6 @@
 		E7B00675DB65F7661C2B009E29242A78 /* UdeskSDKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF3E58B2056336762253219B293EAA0 /* UdeskSDKConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E7FC127175D0DA2E65BB55CE71FA0FB1 /* UdeskAlbumsViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1177C16E64A5FD9918FAD1D46DE73422 /* UdeskAlbumsViewManager.m */; };
 		E828DC34E105E0A0D0EE6AD280B98BE9 /* UIColor+UMC.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E894F231A6F5D75F8A205EDAD63EFC3 /* UIColor+UMC.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E882C4E02215473C7F77D517F4B5AE1A /* Pods-UdeskIMDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3612E7640FA37E21EF8E161B3B8737 /* Pods-UdeskIMDemo-dummy.m */; };
 		E94FF97E62CEC4312EE643B4B01FFFD2 /* Udesk_YYImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E2F446B14FB774EBA1989CC7F01739 /* Udesk_YYImageCoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EA31CD6ED249AE2A2EB86C1592C2C700 /* UMC_HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 851DBFAB7DF370A270F45D57B4652289 /* UMC_HCSStarRatingView.m */; };
 		EA4186A1DC6D720D8596C36DE8BEE492 /* UMCVoiceCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 262C97B4C2A9339EC7D8ECFCD877B3A0 /* UMCVoiceCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -627,19 +627,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0153795EB0751D7A0C3A3B4E0DE4AB73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 16BCC0EE35FCFB853527475494709FE6;
-			remoteInfo = UdeskSDK;
-		};
-		E6107E8848A3C190C71F85DD07AE47AD /* PBXContainerItemProxy */ = {
+		B7348AAB77E580A6EDEFDBFE4F1C0888 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 84653E7D51D46721344D2AFFC5514A19;
 			remoteInfo = MChatSDK;
+		};
+		DA6F240EDADBC076E99DA1DAFA3AE49C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BCC0EE35FCFB853527475494709FE6;
+			remoteInfo = UdeskSDK;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1283,7 +1283,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		72749B28F95516F4FB8A66315C4A1B98 /* Frameworks */ = {
+		923E00C37BCD689E4B06B6675BAA9C31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2285,7 +2285,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FBAB3A4C83983C01FD49BFA9267A1D2 /* Headers */ = {
+		899FAE702CD6F7DC06EC1C5AB1DE0AAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2444,17 +2444,17 @@
 		};
 		1E434CC104238E1C2BEA477F3EFAED44 /* Pods-UdeskIMDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC44FD222755FB61920827175DB74087 /* Build configuration list for PBXNativeTarget "Pods-UdeskIMDemo" */;
+			buildConfigurationList = 02AFD8FE9D0579E39BB78DE3A4F859C6 /* Build configuration list for PBXNativeTarget "Pods-UdeskIMDemo" */;
 			buildPhases = (
-				6FBAB3A4C83983C01FD49BFA9267A1D2 /* Headers */,
-				F5E5B3E78BE8182F486DD38630C1A3ED /* Sources */,
-				72749B28F95516F4FB8A66315C4A1B98 /* Frameworks */,
+				899FAE702CD6F7DC06EC1C5AB1DE0AAF /* Headers */,
+				A597DA751D1BCA3748CA5DCD462155A9 /* Sources */,
+				923E00C37BCD689E4B06B6675BAA9C31 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B8D396B8D5803B7EF7B21176B64CC8E8 /* PBXTargetDependency */,
-				C213789E61396D71813F576695B9A7EC /* PBXTargetDependency */,
+				B53646CDFEFCD31FA2DFA1525D6461A8 /* PBXTargetDependency */,
+				3952FBC9D8D004B73DE9A5ED1C48841E /* PBXTargetDependency */,
 			);
 			name = "Pods-UdeskIMDemo";
 			productName = "Pods-UdeskIMDemo";
@@ -2508,6 +2508,14 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A597DA751D1BCA3748CA5DCD462155A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D599D9BB2C33ADBDD0E19404A72F84F /* Pods-UdeskIMDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6D16E69656970C98EFD2478D30D641E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2822,102 +2830,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5E5B3E78BE8182F486DD38630C1A3ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E882C4E02215473C7F77D517F4B5AE1A /* Pods-UdeskIMDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B8D396B8D5803B7EF7B21176B64CC8E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MChatSDK;
-			target = 84653E7D51D46721344D2AFFC5514A19 /* MChatSDK */;
-			targetProxy = E6107E8848A3C190C71F85DD07AE47AD /* PBXContainerItemProxy */;
-		};
-		C213789E61396D71813F576695B9A7EC /* PBXTargetDependency */ = {
+		3952FBC9D8D004B73DE9A5ED1C48841E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UdeskSDK;
 			target = 16BCC0EE35FCFB853527475494709FE6 /* UdeskSDK */;
-			targetProxy = 0153795EB0751D7A0C3A3B4E0DE4AB73 /* PBXContainerItemProxy */;
+			targetProxy = DA6F240EDADBC076E99DA1DAFA3AE49C /* PBXContainerItemProxy */;
+		};
+		B53646CDFEFCD31FA2DFA1525D6461A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MChatSDK;
+			target = 84653E7D51D46721344D2AFFC5514A19 /* MChatSDK */;
+			targetProxy = B7348AAB77E580A6EDEFDBFE4F1C0888 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DEEA0E0E1DD1BABB107E827BA9D66A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFA6F74426C9DA68669DD314BDB9470D /* UdeskSDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/UdeskSDK/UdeskSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = UdeskSDK;
-				PRODUCT_NAME = UdeskSDK;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		234650270683C1B8CD60FCBA5E9D2195 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C70F7CCE05A6A5692407D2B3CBFC077 /* Pods-UdeskIMDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4152C1DEA0BBD06F5CD90A4191B28B53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F46FF284595A7D62468C4CB737DEAEE9 /* UdeskSDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/UdeskSDK/UdeskSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = UdeskSDK;
-				PRODUCT_NAME = UdeskSDK;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2940,66 +2875,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -3038,11 +2914,178 @@
 			};
 			name = Debug;
 		};
-		A08DD6E5D4199427F86B1E5713CFED4C /* Debug */ = {
+		2ADCFFFAE6471CAA43DA8D04D8E23320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E08B6EBF4DA38D420AFF1506DA7CD5 /* Pods-UdeskIMDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41B40FC14530FADAF2FB6A8B4D19E147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F46FF284595A7D62468C4CB737DEAEE9 /* UdeskSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/UdeskSDK/UdeskSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = UdeskSDK;
+				PRODUCT_NAME = UdeskSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75C10C5EC1CEDC006069B5FFFFF4D545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C70F7CCE05A6A5692407D2B3CBFC077 /* Pods-UdeskIMDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		875FA9EB076C2C62664ECD3B95FDFCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA6F74426C9DA68669DD314BDB9470D /* UdeskSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/UdeskSDK/UdeskSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = UdeskSDK;
+				PRODUCT_NAME = UdeskSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE332491BE7D5384268A4F6A51CEB95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997CDA8193EF6E4C75C0FDCC8C04C20A /* MChatSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MChatSDK/MChatSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MChatSDK;
+				PRODUCT_NAME = MChatSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED02EFE57DB22C2FD44B1333DE632516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A00501B933D3E507A970047A261EA29D /* MChatSDK.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3060,59 +3103,23 @@
 			};
 			name = Debug;
 		};
-		CE27D813D7087F522DEA6B2F39F2D1B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 997CDA8193EF6E4C75C0FDCC8C04C20A /* MChatSDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MChatSDK/MChatSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MChatSDK;
-				PRODUCT_NAME = MChatSDK;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D8252C97AFAA7DDD166B8DCC9D82326E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2E08B6EBF4DA38D420AFF1506DA7CD5 /* Pods-UdeskIMDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02AFD8FE9D0579E39BB78DE3A4F859C6 /* Build configuration list for PBXNativeTarget "Pods-UdeskIMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C10C5EC1CEDC006069B5FFFFF4D545 /* Debug */,
+				2ADCFFFAE6471CAA43DA8D04D8E23320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		16D141F8D2305575126FE71776E57336 /* Build configuration list for PBXNativeTarget "UdeskSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4152C1DEA0BBD06F5CD90A4191B28B53 /* Debug */,
-				0DEEA0E0E1DD1BABB107E827BA9D66A3 /* Release */,
+				41B40FC14530FADAF2FB6A8B4D19E147 /* Debug */,
+				875FA9EB076C2C62664ECD3B95FDFCB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3120,8 +3127,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3129,17 +3136,8 @@
 		C34E8EEB6A98ACF1E1F3B27EA0F3A4DA /* Build configuration list for PBXNativeTarget "MChatSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A08DD6E5D4199427F86B1E5713CFED4C /* Debug */,
-				CE27D813D7087F522DEA6B2F39F2D1B8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EC44FD222755FB61920827175DB74087 /* Build configuration list for PBXNativeTarget "Pods-UdeskIMDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				234650270683C1B8CD60FCBA5E9D2195 /* Debug */,
-				D8252C97AFAA7DDD166B8DCC9D82326E /* Release */,
+				ED02EFE57DB22C2FD44B1333DE632516 /* Debug */,
+				DE332491BE7D5384268A4F6A51CEB95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

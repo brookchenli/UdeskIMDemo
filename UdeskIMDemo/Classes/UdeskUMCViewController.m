@@ -98,15 +98,15 @@
     config.product = product;
             
     UMCCustomButtonConfig *customButton = [[UMCCustomButtonConfig alloc] initWithTitle:@"自定义按钮" clickBlock:^(UMCCustomButtonConfig *customButton, UMCIMViewController *viewController){
+                
+                //点击自定义按钮回调
+                //示例里直接在回调里发送了商品消息，开发者可以根据自己需求进行修改
+                //[viewController sendGoodsMessageWithModel:[self getGoodsModel]];
+            NSLog(@"sss");
+            }];
             
-            //点击自定义按钮回调
-            //示例里直接在回调里发送了商品消息，开发者可以根据自己需求进行修改
-            //[viewController sendGoodsMessageWithModel:[self getGoodsModel]];
-        NSLog(@"sss");
-        }];
-        
-        config.showCustomButtons = YES;
-        config.customButtons = @[customButton];
+            config.showCustomButtons = YES;
+            config.customButtons = @[customButton];
     
     UMCSDKStyle *styly = [UMCSDKStyle defaultStyle];
     config.sdkStyle = styly;
